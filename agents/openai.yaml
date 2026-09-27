@@ -1,0 +1,12 @@
+interface:
+  display_name: "Ocean Paper Reviewer"
+  short_description: "Whole-manuscript preflight review for ocean-science papers"
+  default_prompt: >-
+    Use $ocean-paper-reviewer for Full Preflight of a complete draft before advisor circulation or submission, or after major revision; use Focused Recheck only for specified prior whole-manuscript issues. Ordinary local revision acceptance belongs to OPW Verify. Diagnose within the supplied evidence, separate heuristics from defects, and suggest routes without invoking them.
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true
